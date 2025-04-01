@@ -1,0 +1,195 @@
+.about-page {
+    font-family: "Merriweather", serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(135deg, #e1b7b7 0%, #bf7474 100%);
+    color: white;
+    text-align: center;
+    padding: 8rem 0 6rem;
+  }
+  
+  .about-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.5rem;
+    opacity: 0.9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    padding: 5rem 0;
+  }
+  
+  .mission-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .mission-text {
+    flex: 1;
+  }
+  
+  .mission-image {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission-image img {
+    width: 600px;
+    height: 800px;
+    display: block;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .stat-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(225, 183, 183, 0.1);
+    border-radius: 8px;
+  }
+  
+  .stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #bf7474;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Values Section */
+  .values-section {
+    background: #f8f9fa;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .value-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .value-card h3 {
+    color: #bf7474;
+    margin-bottom: 1rem;
+  }
+  
+  /* CTA Section */
+  .about-cta {
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .about-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bf7474;
+  }
+  
+  .about-cta p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: #666;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: #bf7474;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #d18b8b;
+    transform: translateY(-3px);
+  }
+  
+  .cta-button.secondary {
+    background: white;
+    color: #bf7474;
+    border: 2px solid #bf7474;
+  }
+  
+  .cta-button.secondary:hover {
+    background: #f8f9fa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .mission-content {
+      flex-direction: column;
+    }
+    
+    .about-hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .cta-button {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
