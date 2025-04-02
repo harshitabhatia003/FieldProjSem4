@@ -13,12 +13,12 @@ const Team = () => {
 
   return (
     <div className="team-page">
-      <Navbar />
+      {/* <Navbar /> */}
       
       <section className="team-hero">
         <div className="container">
           <h1>Our Team</h1>
-          <p>We are here for YOU.</p>
+          {/* <p>We are here for YOU.</p> */}
         </div>
       </section>
 
@@ -52,7 +52,7 @@ const Team = () => {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

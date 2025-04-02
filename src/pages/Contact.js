@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Team from './Team';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,10 +38,12 @@ const Contact = () => {
     }, 1500);
   };
 
+
   return (
     <div className="contact-page">
       <Navbar />
       
+      <Team/>
       <section className="contact-hero">
         <div className="container">
           <h1>Get in Touch</h1>
@@ -132,6 +135,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
+      
 
       <Footer />
     </div>

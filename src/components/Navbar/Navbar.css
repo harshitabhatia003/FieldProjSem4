@@ -41,7 +41,7 @@
     color: black;
     font-weight: 500;
     transition: color 0.3s ease;
-    font-size: 1rem;
+    font-size: 18px;
   }
   
   .nav-links a:hover {

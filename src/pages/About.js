@@ -12,74 +12,107 @@ const About = () => {
       <section className="about-hero">
         <div className="container">
           <h1>Our Story</h1>
-          <p>Supporting single parents since 2025</p>
+          <p>From a moment of awareness to a movement of change</p>
+        </div>
+      </section>
+
+      {/* Inspiration Section */}
+      <section className="story-section">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">Why ParentPlus?</span>
+            <h2>The Moment That Changed Everything</h2>
+          </div>
+          
+          <div className="story-content">
+            <div className="story-text">
+              <p className="lead">
+                It started with a train station, unsupervised children, and a realization we couldn't ignore.
+              </p>
+              
+              <div className="story-paragraphs">
+                <p>
+                  During our regular commutes back home, we began noticing young children playing dangerously close to the railway tracks - 
+                  their parents absent, struggling with addiction or forced into sex work. These weren't just passing observations; 
+                  they were heartbreaking encounters that kept us awake at night.
+                </p>
+                
+                <p>
+                  We realized these children weren't simply "playing" - they were surviving. Their parents, often single mothers battling 
+                  unimaginable hardships, lacked the support systems needed to break the cycle. The more we learned, the more compelled 
+                  we felt to act.
+                </p>
+                
+                <p>
+                  ParentPlus emerged from this urgent need - to create a safety net for single parents and their children, providing 
+                  resources, community, and most importantly, hope.
+                </p>
+              </div>
+            </div>
+            
+            <div className="story-image">
+              <div className="image-frame">
+                <div className="image-placeholder">
+                  {/* Replace with actual image */}
+                  <span><img src='/images/train.jpg' className='img'></img></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Mission Section */}
       <section className="mission-section">
         <div className="container">
-          <div className="mission-content">
-            <div className="mission-text">
-              <h2>Our Mission</h2>
+          <div className="section-header">
+            <span className="section-tag">Our Purpose</span>
+            <h2>Creating Change Through Compassion</h2>
+          </div>
+          
+          <div className="mission-cards">
+            <div className="mission-card">
+              <div className="card-icon">👁️</div>
+              <h3>Awareness</h3>
               <p>
-                We believe no parent should have to navigate the challenges of single parenting alone. 
-                Our mission is to provide comprehensive support, resources, and community to help single 
-                parents thrive in all aspects of their lives.
+                Opening eyes to the struggles of single parents in marginalized communities, 
+                breaking stereotypes about family structures.
               </p>
-              <div className="stats-grid">
-                <div className="stat-item">
-                  <span className="stat-number">500+</span>
-                  <span className="stat-label">Parents Supported</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-number">100+</span>
-                  <span className="stat-label">Resources Available</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-number">24/7</span>
-                  <span className="stat-label">Support Network</span>
-                </div>
-              </div>
             </div>
-            <div className="mission-image">
-              <img src="/images/about-mission.jpg" alt="Parent and child" />
+            
+            <div className="mission-card">
+              <div className="card-icon">🤝</div>
+              <h3>Support</h3>
+              <p>
+                Providing tangible resources from childcare information to job training, 
+                tailored for single-parent households.
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Values Section */}
-      <section className="values-section">
-        <div className="container">
-          <h2>Our Core Values</h2>
-          <div className="values-grid">
-            <div className="value-card">
-              <div className="value-icon">❤️</div>
-              <h3>Compassion</h3>
-              <p>We approach every situation with empathy and understanding.</p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">🤝</div>
+            
+            <div className="mission-card">
+              <div className="card-icon">💞</div>
               <h3>Community</h3>
-              <p>Building connections that strengthen and uplift parents.</p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">💪</div>
-              <h3>Resilience</h3>
-              <p>Empowering parents to overcome challenges with confidence.</p>
+              <p>
+                Building networks where single parents uplift each other, 
+                because no one should parent alone.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="about-cta">
+      {/* Call to Action */}
+      <section className="cta-section">
         <div className="container">
-          <h2>Join Our Growing Community</h2>
-          <p>Be part of a network that understands and supports your journey.</p>
+          <h2>Join Us in Making a Difference</h2>
+          <p>
+            Every child deserves a safe childhood. Every parent deserves support.
+            <br />
+            Be part of the solution today.
+          </p>
           <div className="cta-buttons">
-            <a href="/team" className="cta-button secondary">Meet Our Team</a>
+            <a href="/donate" className="cta-button">Donate</a>
+            {/* <a href="/volunteer" className="cta-button secondary">Volunteer</a> */}
           </div>
         </div>
       </section>

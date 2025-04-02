@@ -13,9 +13,10 @@ const Navbar = () => {
         </div>
         <div className="nav-links">
           <a href="/about">About</a>
-          <a href="/faq">FAQ</a>
+          
           <a href="/blogs">Blogs</a>
-          <a href="/team">Meet Our Team</a>
+          <a href="/contact">Contact Us</a>
+          <a href="/faq">FAQ</a>
           <a href="/signup">Signup</a>
           <a href="/donate" className="cta-button">Donate</a>
         </div>
